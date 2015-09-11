@@ -1,12 +1,10 @@
-# _Sleep In_
-
-##### _Takes in a date and returns the day of the week._
+# _Scrabble Score_
 
 #### By _Ronando Long_
 
 ## Description
 
-_Takes in a date and returns the day of the week. If the day is Saturday or Sunday, it tells you you can sleep in._
+_Takes in a word and returns a Scrabble score for that word._
 
 ## Setup
 
