@@ -28,6 +28,11 @@ class String
       "Q" => 10,
       "Z" => 10
     }
-    values.fetch(self.upcase)
+
+    scrabble_score = 0
+    self.each_char do |letter|  # .each_char iterates through a string
+      scrabble_score += values.fetch(letter.upcase)
+    end
+    scrabble_score
   end
 end
