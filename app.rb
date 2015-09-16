@@ -9,5 +9,6 @@ end
 
 get('/score') do
   @score = params.fetch('score').scrabble()  # will receive the input parameters from the 'title' field. We'll want that string to be title cased and then displayed on a fresh page.
+  @word = params.fetch('score')
   erb(:score)
 end

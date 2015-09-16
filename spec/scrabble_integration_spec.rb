@@ -8,6 +8,6 @@ describe('the scrabble score path', {:type => :feature}) do
     visit('/')
     fill_in('score', :with => 'hello')
     click_button('Send')
-    expect(page).to have_content('8')
+    expect(page).to have_content('Your Scrabble Score is: 8')
   end
 end
